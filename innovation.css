@@ -472,27 +472,31 @@ footer {
     letter-spacing: 0.9px;
 }
 
+.aboutus {
+    background-color: #F9FAFC;
+}
+
 .abouthead p {
     font-size: larger;
 }
 
 .countainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 
 }
-
+.footer-mob{
+    display: none;
+}
 .countainer img {
     width: 200px;
     height: 200px;
-    margin-right: 293px;
 }
 
 .countainer p {
     align-items: center;
     font-size: larger;
-    margin-left: 290px;
     letter-spacing: 2px;
     margin-top: 50px;
 }
@@ -542,6 +546,37 @@ footer {
     justify-content: space-around;
     align-items: center;
 
+}
+
+.logos-mobile .inside-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.inside-mobile h5 {
+    color: #0F2137;
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.inside-mobile img {
+    width: 4em;
+    height: 4em;
+}
+
+.logos-mobile p {
+    color: #343D48;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.logos-mobile {
+    display: none;
 }
 
 .logos p {
@@ -596,6 +631,7 @@ footer {
     margin-top: 80px;
 
 }
+
 
 .advertise {
     display: flex;
@@ -759,7 +795,10 @@ nav .mnbuttn {
 
 .iconsmobi {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .iconsmobi p {
@@ -1070,8 +1109,8 @@ nav .mnbuttn {
 }
 
 .footer-mob {
-    margin-top: 40px;
-    display: grid;
+    margin-top: 80px;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1112,14 +1151,17 @@ nav .mnbuttn {
     font-family: DM Sans;
     font-weight: 400;
 }
-.copyright-mob{
+
+.copyright-mob {
     opacity: 0.9;
 }
-.groupicons{
+
+.groupicons {
     display: flex;
     justify-content: space-evenly;
 }
-.mobile{
+
+.mobile {
     display: none;
 }
 
@@ -1162,8 +1204,143 @@ nav .mnbuttn {
     nav {
         justify-content: left;
     }
-    .mobile{
+
+    .mobile {
         display: contents;
     }
+
+    /* --------------------About Us page-------------------- */
+
+    .abouthead h2 {
+        color: #02073E;
+        text-align: center;
+        font-family: B612;
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    .abouthead p {
+        color: #000;
+        font-family: B612;
+        font-size: 1.9375rem;
+        font-weight: 400;
+    }
+
+    .abouthead {
+        background-color: none;
+    }
+
+    .aboutus {
+        background-color: white;
+    }
+
+    .countainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .countainer img {
+        margin-top: 30px;
+    }
+
+    .countainer p {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        color: #000;
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .countainer img {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .charachters {
+        display: flex;
+        justify-content: unset;
+        overflow-x: auto;
+    }
+
+    .charachter1 {
+        min-width: 60%;
+        margin: 0;
+    }
+
+    .thirdinabout {
+        margin-top: 40px;
+    }
+
+    .aboutservises {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .countainer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutservises p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aboutservises img {
+        margin: 0;
+    }
+
+    .logos {
+        display: none;
+    }
+
+    .logos-mobile {
+        display: contents;
+    }
+
+    .choseus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer{
+        display: none;
+    }
+     .footer-mob{
+        display: contents;
+     }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
