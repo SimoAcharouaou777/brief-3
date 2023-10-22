@@ -461,6 +461,10 @@ footer {
     font-size: 10px;
 }
 
+.support-mobile {
+    display: none;
+}
+
 /*------------------------------------------------About Us page----------------------------------------------------*/
 .aboutus {
     margin-top: 70px;
@@ -1091,6 +1095,10 @@ nav .mnbuttn {
     font-size: medium;
 }
 
+.inputadvertise #email {
+    width: unset;
+}
+
 .inpute-mob input {
     border: 0;
     outline: 0;
@@ -1122,6 +1130,7 @@ nav .mnbuttn {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .footer-logo-mob img {
@@ -1166,9 +1175,11 @@ nav .mnbuttn {
 .mobile {
     display: none;
 }
-.secondinadvertise-mobile{
+
+.secondinadvertise-mobile {
     display: none;
 }
+
 /*--------------------------------NAV BAR-------------------------------------------- */
 @media (max-width:656px) {
     .desktop {
@@ -1212,9 +1223,10 @@ nav .mnbuttn {
     .mobile {
         display: contents;
     }
+
     .secondinadvertise-mobile {
         margin-top: 40px;
-        
+
     }
 
     .countainer3 {
@@ -1232,18 +1244,21 @@ nav .mnbuttn {
     .elementsof {
         display: flex;
         flex-direction: column;
+        border: solid white;
     }
-     .elementsof{
-        background: linear-gradient(#59FBDE,#FFFFFF);
-     }
-     .black-text {
+
+    .elementsof {
+        background: linear-gradient(#59FBDE, #FFFFFF);
+    }
+
+    .black-text {
         color: black;
     }
-    
+
     .blue-text {
         color: blue;
     }
-    
+
     .elementsof p {
         color: #000000;
         font-family: DM Sans;
@@ -1258,7 +1273,7 @@ nav .mnbuttn {
         font-size: 2em;
         font-weight: 400;
     }
-    
+
     /* --------------------About Us page-------------------- */
 
     .abouthead h2 {
@@ -1402,27 +1417,157 @@ nav .mnbuttn {
         display: none;
     }
 
-    .countainer3{
+    .countainer3 {
         overflow-x: auto;
         justify-content: unset;
         align-items: unset;
     }
-    .secondinadvertise-mobile{
+
+    .secondinadvertise-mobile {
         display: contents;
     }
 
+    /* --------------------Support us-------------------  */
 
+    .support-desktop {
+        display: none;
+    }
 
+    .support-mobile {
+        display: contents;
+    }
 
+    .support-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
+    }
 
+    .support-topic h1 {
+        color: #0012FF;
+        font-family: B612;
+        font-size: 2.5em;
+        font-weight: 400;
+        letter-spacing: 0.2cm;
+    }
 
+    .firstname-last {
+        display: flex;
+        gap: 54px;
+    }
 
+    #firstname {
+        height: 6vh;
+    }
 
+    #lastname {
+        height: 6vh;
+    }
 
+    .inputs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
 
+    #mobile-email {
+        height: 6vh;
+        width: 98%;
+    }
 
+    #lastname::placeholder {
+        color: #000;
+        font-family: B612;
+        font-size: 1rem;
+        font-weight: 400;
+    }
 
+    #firstname::placeholder {
+        color: #000;
+        font-family: B612;
+        font-size: 1rem;
+        font-weight: 400;
+    }
 
+    #mobile-email::placeholder {
+        color: #000;
+        font-family: B612;
+        font-size: 1rem;
+        font-weight: 400;
+    }
 
+    #mobtextarea::placeholder {
+        color: #000;
+        font-family: B612;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .mob-button {
+        width: 70%;
+        height: 8vh;
+        background: #0A8080;
+        border-radius: 0.625rem;
+        border: 1px solid #000;
+        color: white;
+    }
+
+    .faq {
+        margin-top: 20px;
+    }
+
+    .faq h1 {
+        text-align: center;
+        font-family: sans-serif Collection;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .Questions {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 0.3125rem;
+        background: linear-gradient(180deg, #FFF 0%, #26D6CC 100%);
+        text-align: center;
+        align-items: center;
+    }
+
+    .Answer {
+        border-radius: 0.3125rem;
+        border: 0.1px solid #a79b9b;
+        background: rgba(200, 226, 226, 0.29);
+
+    }
+
+    .charachterslide {
+        display: flex;
+        justify-content: unset;
+        overflow-x: auto;
+    }
+
+    .charachter1mob {
+        min-width: 60%;
+    }
+
+    .charachter1mob img {
+        max-width: 100%;
+    }
+
+    .support-mobile {
+        background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
+    }
+    nav{
+        background: linear-gradient(259deg, #30ffdb 0%, rgb(247 245 245 / 13%) 100%);
+    }
+    body{
+        background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
+    }
+    .secondinmobile{
+        background: white;
+    }
 }
