@@ -165,6 +165,19 @@
 
 
             </div>
+            <script>
+                const Question=document.querySelectorAll('.Questions');
+                const Answer = document.querySelectorAll('.Answer')
+                for(let i=0;i<Question.length ;i++){
+                    Question[i].addEventListener('click',function(){
+                        if(Answer[i].style.display==="none"){
+                            Answer[i].style.display="flex"
+                        }else{
+                            Answer[i].style.display="none"
+                        }
+                    })
+                }
+            </script>
 
 
 

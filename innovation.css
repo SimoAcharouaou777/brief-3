@@ -3,7 +3,8 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    margin: 0;
+    padding: 10px;
 }
 
 img {
@@ -1558,16 +1559,17 @@ nav .mnbuttn {
         max-width: 100%;
     }
 
-    .support-mobile {
-        background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
-    }
-    nav{
-        background: linear-gradient(259deg, #30ffdb 0%, rgb(247 245 245 / 13%) 100%);
-    }
+    
+   
     body{
         background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
+        margin: 0;
+        padding: 10px;
     }
     .secondinmobile{
         background: white;
+    }
+    .aboutus{
+        background: unset;
     }
 }
