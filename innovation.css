@@ -486,9 +486,11 @@ footer {
 
 
 }
-.footer-mob{
+
+.footer-mob {
     display: none;
 }
+
 .countainer img {
     width: 200px;
     height: 200px;
@@ -1164,7 +1166,9 @@ nav .mnbuttn {
 .mobile {
     display: none;
 }
-
+.secondinadvertise-mobile{
+    display: none;
+}
 /*--------------------------------NAV BAR-------------------------------------------- */
 @media (max-width:656px) {
     .desktop {
@@ -1208,7 +1212,53 @@ nav .mnbuttn {
     .mobile {
         display: contents;
     }
+    .secondinadvertise-mobile {
+        margin-top: 40px;
+        
+    }
 
+    .countainer3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .countainer3 img {
+        min-width: 300px;
+        height: 300px;
+    }
+
+    .elementsof {
+        display: flex;
+        flex-direction: column;
+    }
+     .elementsof{
+        background: linear-gradient(#59FBDE,#FFFFFF);
+     }
+     .black-text {
+        color: black;
+    }
+    
+    .blue-text {
+        color: blue;
+    }
+    
+    .elementsof p {
+        color: #000000;
+        font-family: DM Sans;
+        font-size: 2rem;
+        font-weight: 400;
+        font-weight: bold;
+    }
+
+    .elementsof h2 {
+        color: #02073E;
+        font-family: B612;
+        font-size: 2em;
+        font-weight: 400;
+    }
+    
     /* --------------------About Us page-------------------- */
 
     .abouthead h2 {
@@ -1309,25 +1359,57 @@ nav .mnbuttn {
         display: contents;
     }
 
-    .choseus{
+    .choseus {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         justify-content: center;
     }
-    .footer{
+
+    .footer {
         display: none;
     }
-     .footer-mob{
+
+    .footer-mob {
         display: contents;
-     }
-     
+    }
 
+    .firstinadvertise h2 {
+        font-family: B612;
+        font-size: 2em;
+        font-weight: 400;
+        color: #000;
+    }
 
+    .advertise {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .secondinadvertise {
+        display: none;
+    }
 
+    .thirdinadvertise {
+        display: none;
+    }
 
+    .lastinadvertise {
+        display: none;
+    }
+
+    .countainer3{
+        overflow-x: auto;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .secondinadvertise-mobile{
+        display: contents;
+    }
 
 
 
