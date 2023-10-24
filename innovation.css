@@ -23,7 +23,6 @@ nav {
 }
 
 .logo img {
-    position: absolute;
     height: 50px;
     width: 50px;
     display: flex;
@@ -1181,6 +1180,176 @@ nav .mnbuttn {
     display: none;
 }
 
+/* -----------------LOGIN PAGE ------------------------- */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.username-login input {
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 18.6875rem;
+    height: 2.9375rem;
+    font-family: 'FontAwesome';
+}
+
+.password-login input {
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 18.6875rem;
+    height: 2.9375rem;
+    font-family: 'FontAwesome';
+}
+
+.checkbox-login {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.checkbox-login a {
+    color: blue;
+}
+
+.login-button button {
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 18.6875rem;
+    height: 2.9375rem;
+    font-family: 'FontAwesome';
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.horizontal-line {
+    width: 50px;
+    height: 0;
+    border: 1px solid black;
+}
+
+.otheroptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.creatacnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.Sign-Up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#firstname::placeholder{
+    color: #000;
+    font-family: B612;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#last-name::placeholder {
+    color: #000;
+    font-family: B612;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#signupemail::placeholder{
+    color: #000;
+    font-family: B612;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#signup-pass::placeholder{
+    color: #000;
+    font-family: B612;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#confirm-pass::placeholder{
+    color: #000;
+    font-family: B612;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.name-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.name-sign input {
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 9.375rem;
+    height: 2.9375rem;
+}
+
+.email-pass-con {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.email-pass-con input {
+    border-radius: 0.625rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 20.375rem;
+    height: 2.9375rem;
+}
+
+.checkbox-signup {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.login-button {
+    margin-top: 30px;
+}
+
+.line-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*--------------------------------NAV BAR-------------------------------------------- */
 @media (max-width:656px) {
     .desktop {
@@ -1559,17 +1728,19 @@ nav .mnbuttn {
         max-width: 100%;
     }
 
-    
-   
-    body{
+
+
+    body {
         background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
         margin: 0;
         padding: 10px;
     }
-    .secondinmobile{
+
+    .secondinmobile {
         background: white;
     }
-    .aboutus{
+
+    .aboutus {
         background: unset;
     }
 }

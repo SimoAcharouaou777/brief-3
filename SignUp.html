@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="innovation.css">
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+ <style>
+    @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+ </style>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <img src="imgs/logo.png" alt="logo">
+                <span>innovation</span>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="advertise.html">Advertise</a></li>
+                    <li><a href="Support.html">Support</a></li>
+                    <li><a href="AboutUs.html">About</a></li>
+
+                </ul>
+            </div>
+            <div class="logstart">
+                <ul>
+                    <li><a href="Login.html">login</a></li>
+                    <li><a href="SignUp.html">Sign Up</a></li>
+                </ul>
+                <div class="mnbuttn"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </nav>
+        <div class="dropdownmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="advertise.html">Advertise</a></li>
+                <li><a href="Support.html">Support</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="SignUp.html">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="Sign-Up">
+        <h1>Sign Up:</h1>
+        <div class="Sign-up-container">
+            <div class="name-sign">
+                <input type="text" id="firstname" placeholder="first name">
+                <input type="text" id="last-name" placeholder="last name">
+            </div>
+            <div class="email-pass-con">
+                  <input type="email" id="signupemail" placeholder="email">
+                  <input type="password" id="signup-pass" placeholder="password">
+                  <input type="password" name="password" id="confirm-pass" placeholder="confirme password">
+            </div>
+            <div class="checkbox-signup">
+                <div class="checkbox-log">
+                    <input type="checkbox">
+                    <label for="checkbox-log"> i read <a href="#">privacy</a> & <a href="#">policy</a></label>
+                </div>
+            </div>
+            <div class="login-button">
+                <button>Sign Up</button>
+            </div>
+            <div class="line-container">
+                <div class="horizontal-line"></div>
+                <div class="or">or</div>
+                <div class="horizontal-line"></div>
+            </div>
+
+        </div>
+        <div class="signwith">
+            <h4>Or Sign Up with :</h4>
+            <div class="otheroptions">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                    <path
+                        d="M9.5 19C14.7467 19 19 14.7467 19 9.5C19 4.25329 14.7467 0 9.5 0C4.25329 0 0 4.25329 0 9.5C0 14.7467 4.25329 19 9.5 19Z"
+                        fill="#3B5998" />
+                    <path
+                        d="M11.8873 9.87145H10.1921V16.0817H7.62384V9.87145H6.40234V7.68892H7.62384V6.27657C7.62384 5.26659 8.1036 3.68506 10.215 3.68506L12.1174 3.69302V5.81154H10.7371C10.5107 5.81154 10.1923 5.92467 10.1923 6.40646V7.69095H12.1117L11.8873 9.87145Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                    <path
+                        d="M19 2.24918C18.3009 2.63067 17.5497 2.88851 16.7611 3.00447C17.566 2.41081 18.184 1.47081 18.4751 0.350791C17.7219 0.900409 16.8877 1.2996 15.9998 1.51476C15.2887 0.582542 14.2756 0 13.1545 0C11.0016 0 9.25627 2.14759 9.25627 4.79648C9.25627 5.17241 9.29081 5.53851 9.35725 5.88956C6.11754 5.68953 3.24527 3.77994 1.32268 0.878003C0.987147 1.58643 0.794916 2.41038 0.794916 3.28941C0.794916 4.95349 1.48315 6.42164 2.52909 7.28177C1.89006 7.25689 1.28904 7.04113 0.763433 6.68187C0.763155 6.70188 0.763155 6.72198 0.763155 6.74216C0.763155 9.06617 2.10683 11.0048 3.89007 11.4454C3.56294 11.5551 3.21858 11.6136 2.86303 11.6136C2.61187 11.6136 2.36765 11.5836 2.12969 11.5276C2.6257 13.4333 4.06527 14.82 5.77103 14.8588C4.43695 16.1452 2.75614 16.912 0.92988 16.912C0.615264 16.912 0.304956 16.8894 0 16.8451C1.72507 18.206 3.77408 19 5.97542 19C13.1454 19 17.0662 11.6911 17.0662 5.35268C17.0662 5.1447 17.0624 4.93784 17.0549 4.73217C17.8165 4.0559 18.4774 3.21108 19 2.24918Z"
+                        fill="#55ACEE" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                    <path
+                        d="M9.50008 0C4.25402 0 0 4.36087 0 9.74051C0 14.0441 2.72206 17.6953 6.49673 18.9833C6.97152 19.0734 7.14582 18.772 7.14582 18.5147C7.14582 18.2824 7.13701 17.5151 7.13292 16.7012C4.48999 17.2904 3.9323 15.5519 3.9323 15.5519C3.50015 14.4261 2.87749 14.1267 2.87749 14.1267C2.01555 13.5222 2.94246 13.5346 2.94246 13.5346C3.89644 13.6033 4.39875 14.5383 4.39875 14.5383C5.24606 16.0275 6.62117 15.597 7.16329 15.3481C7.24855 14.7185 7.49475 14.2888 7.76644 14.0456C5.65634 13.7993 3.43817 12.9641 3.43817 9.23178C3.43817 8.16833 3.80928 7.29942 4.417 6.61728C4.31836 6.37195 3.99319 5.38125 4.50903 4.03957C4.50903 4.03957 5.30679 3.77778 7.12223 5.03801C7.88002 4.82219 8.69273 4.71396 9.50008 4.71025C10.3074 4.71396 11.1208 4.82219 11.88 5.03801C13.6932 3.77778 14.4899 4.03957 14.4899 4.03957C15.007 5.38125 14.6816 6.37195 14.583 6.61728C15.1921 7.29942 15.5607 8.16833 15.5607 9.23178C15.5607 12.9729 13.3383 13.7967 11.2229 14.0378C11.5636 14.3401 11.8672 14.9329 11.8672 15.8416C11.8672 17.1449 11.8562 18.1939 11.8562 18.5147C11.8562 18.7739 12.0272 19.0776 12.5088 18.982C16.2814 17.6925 19 14.0427 19 9.74051C19 4.36087 14.7466 0 9.50008 0ZM3.55809 13.8756C3.53717 13.924 3.46291 13.9385 3.39526 13.9052C3.32636 13.8735 3.28766 13.8075 3.31 13.7589C3.33045 13.7091 3.40486 13.6952 3.47361 13.7286C3.54267 13.7604 3.582 13.827 3.55809 13.8756ZM4.02539 14.3031C3.98008 14.3462 3.89151 14.3261 3.83141 14.2581C3.76927 14.1902 3.75763 14.0994 3.80357 14.0557C3.85029 14.0126 3.93619 14.0327 3.99849 14.1007C4.06063 14.1694 4.07274 14.2595 4.02539 14.3031ZM4.34597 14.8501C4.28776 14.8915 4.19259 14.8527 4.13375 14.766C4.07554 14.6794 4.07554 14.5755 4.13501 14.5339C4.194 14.4923 4.28776 14.5297 4.34739 14.6157C4.40544 14.7038 4.40544 14.8077 4.34597 14.8501ZM4.88815 15.4836C4.83608 15.5424 4.72517 15.5266 4.64399 15.4463C4.56093 15.3678 4.5378 15.2563 4.59003 15.1974C4.64273 15.1384 4.75427 15.155 4.83608 15.2347C4.91851 15.3131 4.94368 15.4253 4.88815 15.4836ZM5.58886 15.6974C5.56589 15.7737 5.45907 15.8084 5.35147 15.776C5.24402 15.7426 5.1737 15.6532 5.19541 15.5761C5.21775 15.4994 5.32504 15.4632 5.43343 15.4979C5.54072 15.5311 5.6112 15.6198 5.58886 15.6974ZM6.3863 15.7881C6.38897 15.8685 6.29773 15.9351 6.18477 15.9365C6.07119 15.9391 5.97932 15.8741 5.97806 15.7951C5.97806 15.714 6.06726 15.648 6.18084 15.646C6.29379 15.6438 6.3863 15.7083 6.3863 15.7881ZM7.16969 15.7574C7.18322 15.8357 7.10472 15.9162 6.99255 15.9377C6.88227 15.9583 6.78017 15.9099 6.76617 15.8322C6.75249 15.7519 6.8324 15.6714 6.94252 15.6506C7.05485 15.6306 7.15538 15.6777 7.16969 15.7574Z"
+                        fill="#161614" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                    <path
+                        d="M9.49893 0.631775C14.3974 0.631775 18.3606 4.59971 18.3606 9.49646C18.3606 14.3932 14.3974 18.3686 9.49893 18.3686C4.60049 18.3686 0.637207 14.4006 0.637207 9.50389C0.637207 4.60714 4.60049 0.631775 9.49893 0.631775Z"
+                        fill="#E74D89" />
+                    <path
+                        d="M9.5 19C4.26016 19 0 14.7423 0 9.50372C0 4.25772 4.26016 0 9.5 0C14.7398 0 19 4.25772 19 9.49628C19 14.7348 14.7398 19 9.5 19ZM17.5082 10.7966C17.2336 10.7075 14.9996 10.0461 12.4539 10.4474C13.5152 13.3602 13.9457 15.738 14.0273 16.2284C15.8531 15.0023 17.152 13.0555 17.5082 10.7966ZM12.6691 16.9789C12.5504 16.2655 12.0754 13.7837 10.9398 10.8264C10.925 10.8338 10.9027 10.8412 10.8879 10.8412C6.30859 12.4388 4.66836 15.6117 4.51992 15.9089C5.89297 16.9789 7.62227 17.6179 9.5 17.6179C10.6207 17.6253 11.6969 17.395 12.6691 16.9789ZM3.47344 14.9355C3.65898 14.6234 5.88555 10.9378 10.0715 9.57802C10.1754 9.54087 10.2867 9.51115 10.3906 9.48142C10.1902 9.02073 9.96758 8.56003 9.73008 8.10677C5.67773 9.31795 1.74414 9.26594 1.38789 9.25851C1.38789 9.34024 1.38047 9.42198 1.38047 9.50372C1.38789 11.5917 2.17461 13.4939 3.47344 14.9355ZM1.55859 7.84669C1.92227 7.85413 5.26211 7.86899 9.06211 6.85843C7.71875 4.46578 6.26406 2.45952 6.05625 2.16973C3.77773 3.23973 2.08555 5.33516 1.55859 7.84669ZM7.6 1.61987C7.82266 1.91709 9.29961 3.92335 10.6281 6.36801C13.5152 5.28314 14.7324 3.64842 14.8809 3.44036C13.4484 2.16973 11.5633 1.39695 9.5 1.39695C8.84688 1.39695 8.20859 1.47869 7.6 1.61987ZM15.7789 4.37661C15.6082 4.60696 14.25 6.35315 11.2516 7.57919C11.4371 7.96558 11.6227 8.35941 11.7934 8.75323C11.8527 8.89441 11.9121 9.03559 11.9715 9.16934C14.673 8.82753 17.3523 9.3774 17.6195 9.42941C17.5973 7.51975 16.9145 5.7587 15.7789 4.37661Z"
+                        fill="#B2215A" />
+                </svg>
+            </div>
+        </div>
+        <div class="creatacnt">
+            <p>Dont have an account ?</p>
+            <a href="#">Sign Up</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo">
+            <span>
+                <img src="imgs/logo.png" alt="Logo">
+                <h3>Innovation</h3>
+            </span>
+            <p>Terms of use | Privacy</p>
+            <p>Copyright by 2019 Yourname,Inc</p>
+        </div>
+        <div class="column-li">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Support Center</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Copyright</a></li>
+            </ul>
+        </div>
+        <div class="column-li">
+            <h3>Our information</h3>
+            <ul>
+                <li><a href="#">return policy</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">site map</a></li>
+            </ul>
+        </div>^
+        <div class="column-li">
+            <h3>My Account</h3>
+            <ul>
+                <li><a href="#">Press inquiries</a></li>
+                <li><a href="#">Social media</a></li>
+                <li><a href="#">directories</a></li>
+                <li><a href="#">images & B-roll</a></li>
+            </ul>
+        </div>
+        <div class="iconscontact">
+            <h3>Connect</h3>
+            <ul>
+                <li><img src="#" alt="faceboock"><a href="#">Facebook</a></li>
+                <li><img src="#" alt="Twitter"><a href="#">Twitter</a></li>
+                <li><img src="#" alt="Glthub"><a href="#">Github</a></li>
+                <li><img src="#" alt="dribble"><a href="#">Dribbble</a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="footer-mob">
+        <div class="footer-logo-mob">
+            <img src="imgs/logo.png" alt="Logo">
+            <p>INNOVATION</p>
+        </div>
+        <div class="footer-container">
+            <div class="foot-elements">
+                <p>About us</p>
+                <img src="imgs/down-arrow (1).png" alt="down-arrow">
+            </div>
+            <div class="foot-elements">
+                <p>Our Information</p>
+                <img src="imgs/down-arrow (1).png" alt="down-arrow">
+            </div>
+            <div class="foot-elements">
+                <p>My Account</p>
+                <img src="imgs/down-arrow (1).png" alt="down-arrow">
+            </div> <br>
+            <p>Terms of us | privacy</p>
+            <p class="copyright-mob">Copyright by 2019 YourName, Inc</p>
+            <div class="groupicons">
+                <img src="imgs/Group fb.svg" alt="faceboock">
+                <img src="imgs/Group tw.svg" alt="twitter">
+                <img src="imgs/Group git.svg" alt="github">
+                <img src="imgs/Group dribb.svg" alt="dribbble">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
