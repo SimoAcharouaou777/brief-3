@@ -185,7 +185,7 @@ a:hover {
     flex-direction: column;
 }
 
-.charachter1 img {
+.charachterimgs img {
     width: 100%;
 }
 
@@ -359,6 +359,7 @@ a:hover {
 footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .footer-logo span {
@@ -509,6 +510,7 @@ footer {
 
 .secondinabout {
     margin-top: 90px;
+    overflow: hidden;
 }
 
 .meetourteam h2 {
@@ -726,11 +728,26 @@ nav .mnbuttn {
     display: none;
 }
 
+.closebtn {
+    width: 25px;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: none;
+    cursor: pointer;
+}
+
+.mnbuttn {
+    cursor: pointer;
+    display: none;
+}
+
+
 .dropdownmenu {
     background: linear-gradient(#59FBDE, white);
     position: absolute;
     top: 35px;
-    right: 2rem;
+    right: -1.4rem;
     width: 150px;
     border-radius: 5%;
     backdrop-filter: blur(10px);
@@ -865,6 +882,9 @@ nav .mnbuttn {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: auto;
 }
 
 .charachter1mob img {
@@ -1267,36 +1287,42 @@ nav .mnbuttn {
     align-items: center;
     text-align: center;
 }
-#firstname::placeholder{
+
+#firstname::placeholder {
     color: #000;
     font-family: B612;
     font-size: 1rem;
     font-weight: 400;
 }
+
 #last-name::placeholder {
     color: #000;
     font-family: B612;
     font-size: 1rem;
     font-weight: 400;
 }
-#signupemail::placeholder{
+
+#signupemail::placeholder {
     color: #000;
     font-family: B612;
     font-size: 1rem;
     font-weight: 400;
 }
-#signup-pass::placeholder{
+
+#signup-pass::placeholder {
     color: #000;
     font-family: B612;
     font-size: 1rem;
     font-weight: 400;
 }
-#confirm-pass::placeholder{
+
+#confirm-pass::placeholder {
     color: #000;
     font-family: B612;
     font-size: 1rem;
     font-weight: 400;
 }
+
 .name-sign {
     display: flex;
     justify-content: center;
@@ -1318,7 +1344,7 @@ nav .mnbuttn {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: unset;
     text-align: center;
     gap: 20px;
 }
@@ -1350,6 +1376,48 @@ nav .mnbuttn {
     align-items: center;
 }
 
+.hide {
+    display: none;
+}
+
+.logstart .mnbuttn{
+    display: none;
+}
+/* -----------------------------Sign Up validation --------------------------------*/
+
+
+.firstnameerror{
+    display: flex;
+    flex-direction: column;
+}
+ .error{
+    text-align: left;
+    color: red;
+
+ }
+
+.error2{
+    text-align: left;
+    color: red;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------NAV BAR-------------------------------------------- */
 @media (max-width:656px) {
     .desktop {
@@ -1369,12 +1437,24 @@ nav .mnbuttn {
     }
 
     .dropdownmenu {
+        padding-inline-start: 0;
         display: none;
     }
 
+    .display {
+        display: block !important;
+    }
+    .displayNone{
+        display: none !important;
+    }
+    
+
     .dropdownmenu ul {
-        display: block;
-        padding-inline-start: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .logo img {
@@ -1501,11 +1581,11 @@ nav .mnbuttn {
     .charachters {
         display: flex;
         justify-content: unset;
-        overflow-x: auto;
+       
     }
 
     .charachter1 {
-        min-width: 60%;
+        min-width: 100%;
         margin: 0;
     }
 
@@ -1596,7 +1676,20 @@ nav .mnbuttn {
     .secondinadvertise-mobile {
         display: contents;
     }
+    .arrow{
+        display: flex;
 
+    }
+    .left-arrow{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+    }
+    .right-arrow{
+        width: 32px;
+        height: 32px;
+        
+    }
     /* --------------------Support us-------------------  */
 
     .support-desktop {
@@ -1629,9 +1722,7 @@ nav .mnbuttn {
         gap: 54px;
     }
 
-    #firstname {
-        height: 6vh;
-    }
+   
 
     #lastname {
         height: 6vh;
@@ -1717,19 +1808,17 @@ nav .mnbuttn {
     .charachterslide {
         display: flex;
         justify-content: unset;
-        overflow-x: auto;
+        
     }
 
     .charachter1mob {
-        min-width: 60%;
+        min-width: 100%;
     }
 
     .charachter1mob img {
-        max-width: 100%;
+        max-width: 50%;
     }
-
-
-
+    
     body {
         background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
         margin: 0;
@@ -1742,5 +1831,13 @@ nav .mnbuttn {
 
     .aboutus {
         background: unset;
+    }
+
+    .showmedia {
+        display: block;
+    }
+
+    .hidemedia {
+        display: none;
     }
 }

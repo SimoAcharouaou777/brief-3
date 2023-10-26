@@ -32,34 +32,36 @@
                     <li><a href="AboutUs.html">About</a></li>
 
                 </ul>
+               
             </div>
             <div class="logstart">
                 <ul>
                     <li><a href="Login.html">login</a></li>
                     <li><a href="SignUp.html">Sign Up</a></li>
                 </ul>
-                <div class="mnbuttn"><i class="fa-solid fa-bars"></i></div>
-            </div>
+                <div class="mnbuttn" id="menubutt"><i class="fa-solid fa-bars"></i></div>
+                <div class="closebtn" id="closebutton"> <img src="imgs/cancel.png" alt="cancel button"></div>
         </nav>
-        <div class="dropdownmenu">
+        <div class="dropdownmenu" id="menuu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="advertise.html">Advertise</a></li>
                 <li><a href="Support.html">Support</a></li>
                 <li><a href="AboutUs.html">About</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="SignUp.html">Sign up</a></li>
             </ul>
         </div>
     </header>
-    <section class="login">
+    <form class="login" id="form">
         <h1>LOG IN:</h1>
         <div class="login-container">
             <div class="username-login">
                 <input type="text" id="username" placeholder="    user name">
+               
             </div>
             <div class="password-login">
-                <input type="password" id="password-login" placeholder="     Password">
+            <input type="password" id="password-login" placeholder="     Password">
             </div>
             <div class="checkbox-login">
                 <div class="checkbox-log">
@@ -111,9 +113,9 @@
         </div>
         <div class="creatacnt">
             <p>Dont have an account ?</p>
-            <a href="#">Sign Up</a>
+            <a href="SignUp.html">Sign Up</a>
         </div>
-    </section>
+    </form>
     <footer class="footer">
         <div class="footer-logo">
             <span>
@@ -188,6 +190,7 @@
             </div>
         </div>
     </footer>
+    <script src="innovation.js"></script>
 </body>
 
 </html>

@@ -32,16 +32,17 @@
                     <li><a href="AboutUs.html">About</a></li>
 
                 </ul>
+                
             </div>
             <div class="logstart">
                 <ul>
                     <li><a href="Login.html">login</a></li>
                     <li><a href="SignUp.html">Sign Up</a></li>
                 </ul>
-                <div class="mnbuttn"><i class="fa-solid fa-bars"></i></div>
-            </div>
+                <div class="mnbuttn" id="menubutt"><i class="fa-solid fa-bars"></i></div>
+                <div class="closebtn" id="closebutton"> <img src="imgs/cancel.png" alt="cancel button"></div>
         </nav>
-        <div class="dropdownmenu">
+        <div class="dropdownmenu" id="menuu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="advertise.html">Advertise</a></li>
@@ -52,17 +53,27 @@
             </ul>
         </div>
     </header>
-    <section class="Sign-Up">
+    <form class="Sign-Up" id="formsignup">
         <h1>Sign Up:</h1>
         <div class="Sign-up-container">
             <div class="name-sign">
-                <input type="text" id="firstname" placeholder="first name">
-                <input type="text" id="last-name" placeholder="last name">
+                <div class="firstnameerror">
+                    <input type="text" id="firstname" placeholder="first name" onkeyup="checkinputs(1)">
+                    <span id="errorName1" class="error"> </span>
+                </div>
+                <div class="firstnameerror">
+                    <input type="text" id="last-name" placeholder="last name" onkeyup="checkinputs(2)">
+                    <span id="errorName2" class="error"></span>
+                </div>
+               
             </div>
             <div class="email-pass-con">
-                  <input type="email" id="signupemail" placeholder="email">
+                  <input type="email" id="signupemail" placeholder="email" onkeyup="emailcheck()">
+                  <span id="erroremail" class="error"></span>
                   <input type="password" id="signup-pass" placeholder="password">
-                  <input type="password" name="password" id="confirm-pass" placeholder="confirme password">
+                  <span id="error" class="error"> </span>
+                  <input type="password" name="password" id="confirm-pass" placeholder="confirme password" onkeyup="passwordcheck()">
+                  <span id="errorcheckpass" class="error"> </span>
             </div>
             <div class="checkbox-signup">
                 <div class="checkbox-log">
@@ -111,11 +122,8 @@
                 </svg>
             </div>
         </div>
-        <div class="creatacnt">
-            <p>Dont have an account ?</p>
-            <a href="#">Sign Up</a>
-        </div>
-    </section>
+      
+    </form>
     <footer class="footer">
         <div class="footer-logo">
             <span>
@@ -190,6 +198,7 @@
             </div>
         </div>
     </footer>
+    <script src="innovation.js"></script>
 </body>
 
 </html>

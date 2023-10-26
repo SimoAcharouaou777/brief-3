@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <nav>
+        <nav >
             <div class="logo">
                 <img src="imgs/logo.png" alt="logo">
                 <span>innovation</span>
@@ -32,19 +32,20 @@
             <div class="logstart">
                 <ul>
                     <li><a href="Login.html">login</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="SignUp.html">Sign Up</a></li>
                 </ul>
-                <div class="mnbuttn"><i class="fa-solid fa-bars"></i></div>
+                <div class="mnbuttn" id="menubutt"><i class="fa-solid fa-bars"></i></div>
+                <div class="closebtn" id="closebutton"> <img src="imgs/cancel.png" alt="cancel button"></div>
             </div>
         </nav>
-        <div class="dropdownmenu">
+        <div class="dropdownmenu" id="menuu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="advertise.html">Advertise</a></li>
                 <li><a href="Support.html">Support</a></li>
                 <li><a href="AboutUs.html">About</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="SignUp.html">Sign up</a></li>
             </ul>
         </div>
     </header>
@@ -468,7 +469,10 @@
                         </div>
                     </div>
                     <div class="charachter1mob">
+                          
+
                         <img src="imgs/charachter2.png" alt="charachter1">
+
                         <h5>Daisy Morgan</h5>
                         <p>Lead developer</p>
                         <div class="socialnetworkmob">
@@ -669,5 +673,5 @@
         </footer>
     </section>
 
-
+<script src="innovation.js"></script>
 </body>
