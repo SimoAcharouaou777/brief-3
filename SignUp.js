@@ -21,12 +21,12 @@ function checkinputs(i) {
     if (firstname.value.match(reg)) {
         firstname.style.border = '2px solid green';
         document.getElementById('errorName' + i).innerHTML = "";
-        return true;
+       
     }
     else {
         document.getElementById('errorName' + i).innerHTML = "Errore invalide";
         firstname.style.border = '2px solid red';
-        return false;
+        
     }
 }
 function emailcheck() {

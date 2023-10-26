@@ -948,7 +948,6 @@ nav .mnbuttn {
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow-x: auto;
 }
 
 .charachter1mob img {
@@ -1701,7 +1700,7 @@ nav .mnbuttn {
     .charachters {
         display: flex;
         justify-content: unset;
-        overflow-x: auto;
+        
 
     }
 
