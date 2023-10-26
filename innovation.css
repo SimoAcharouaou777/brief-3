@@ -968,6 +968,29 @@ nav .mnbuttn {
     font-weight: 400;
 }
 
+.popupclass{
+    border: 1px solid black;
+    position: fixed;
+    width: 444px;
+    height: 254px;
+    top: 120px;
+    right: 146px;
+    backdrop-filter: blur(7px);
+    display: none;
+}
+.popupclass p{
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+.popupclass img{
+    width: 29px;
+    height: 29px;
+    position: fixed;
+    right: 22px;
+}
 .iconscontact img {
     width: 16px;
     height: 16px;
@@ -1965,4 +1988,24 @@ nav .mnbuttn {
     .hidemedia {
         display: none;
     }
+    .popupclassmobile{
+        border: 1px solid black;
+        backdrop-filter: blur(18px);
+        position: fixed;
+        top: 122px;
+        right: 105px;
+        display: none;
+    }
+    #closeupmobile{
+        width: 29px;
+        position: fixed;
+        top: -16px;
+        height: 29px;
+        right: -15px;
+    }
+
+
+
+
+
 }

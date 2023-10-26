@@ -55,3 +55,35 @@ optionC.addEventListener('click',function(){
     modelplanmob.style.display="none"
     ourpromicemob.style.display="none"
 })
+
+
+// POOOOOP UP 
+
+const clickpopup = document.querySelectorAll('#popupid');
+const popuplist = document.querySelectorAll('.popupclass');
+const closeup = document.querySelectorAll('#closeup');
+for(let i = 0 ; i< clickpopup.length; i++){
+    clickpopup[i].addEventListener('click',function(){
+        popuplist[i].style.display="block";
+    })
+}
+
+for(let i = 0 ; i< clickpopup.length; i++){
+closeup[i].addEventListener('click',function(){
+    popuplist[i].style.display='none';
+})
+}
+
+//POOOOOOOP UP MOBILE
+
+const clickpopupmob = document.querySelector('#popupidmobile');
+const popuplistmob = document.querySelector('.popupclassmobile');
+const closeupmob = document.querySelector('#closeupmobile')
+
+clickpopupmob.addEventListener('click',function(){
+    popuplistmob.style.display="block";
+})
+
+closeupmob.addEventListener('click',function(){
+    popuplistmob.style.display="none";
+})
