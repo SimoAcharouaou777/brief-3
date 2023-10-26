@@ -263,6 +263,23 @@ a:hover {
     height: 20px;
 }
 
+.slides {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.slides p {
+    cursor: pointer;
+    color: #0F2137;
+    text-align: center;
+    font-weight: 700;
+}
+
+.ourservice{
+    display: flex;
+}
 .Populartext {
     text-align: center;
 }
@@ -279,6 +296,51 @@ a:hover {
 
 
 }
+.modelplan{
+    display:none;
+}
+.plan {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.modelplan h1 {
+    color: #000;
+    font-family: B612;
+    font-size: 2.875rem;
+    font-weight: 700;
+}
+
+.plan h3 {
+    color: #000;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.ourpromice{
+ display: none;
+}
+.ourpromice h1{
+    color: #000;
+    font-family: B612;
+    font-size: 2.875rem;
+    font-weight: 700;
+}
+.promice{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.promice h3{
+    color: #000;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+
 
 .Popular h4 {
     color: #0F2137;
@@ -392,10 +454,12 @@ footer {
 
 
 }
-#emailSupport{
-    
+
+#emailSupport {
+
     height: 40px;
 }
+
 .callus img {
     width: 350px;
     height: 400px;
@@ -904,13 +968,16 @@ nav .mnbuttn {
     font-size: 1rem;
     font-weight: 400;
 }
-.iconscontact img{
-      width: 16px;
-      height: 16px;
+
+.iconscontact img {
+    width: 16px;
+    height: 16px;
 }
-.iconscontact ul li{
+
+.iconscontact ul li {
     display: flex;
 }
+
 .Title2 h3 {
     color: #0F2137;
     text-align: center;
@@ -1020,7 +1087,9 @@ nav .mnbuttn {
 .lastimage {
     margin-top: 20px;
 }
-
+.beforlast{
+    margin-top: 90px;
+}
 .beforlast-mob {
     display: grid;
     justify-content: center;
@@ -1386,28 +1455,36 @@ nav .mnbuttn {
     display: none;
 }
 
-.logstart .mnbuttn{
+.logstart .mnbuttn {
     display: none;
 }
+
 /* -----------------------------Sign Up validation --------------------------------*/
 
 
-.firstnameerror{
+.firstnameerror {
     display: flex;
     flex-direction: column;
 }
- .error{
+
+.error {
     text-align: left;
     color: red;
 
- }
+}
 
-.error2{
+.error2 {
     text-align: left;
     color: red;
     display: block;
 }
 
+.modelplan img{
+    width: 69%;
+}
+.ourpromice img{
+    width: 69%;
+}
 
 
 
@@ -1450,10 +1527,11 @@ nav .mnbuttn {
     .display {
         display: block !important;
     }
-    .displayNone{
+
+    .displayNone {
         display: none !important;
     }
-    
+
 
     .dropdownmenu ul {
         display: flex;
@@ -1529,7 +1607,43 @@ nav .mnbuttn {
         font-size: 2em;
         font-weight: 400;
     }
-
+    .modelplan-mob{
+        display: none;
+    }
+    .ourpromice-mob{
+        display: none;
+    }
+    .optionsmob{
+        background: linear-gradient(#07ecf4fe, white);
+        position: absolute;
+        right: 0.6rem;
+        width: 195px;
+        border-radius: 5%;
+        overflow: hidden;
+        border: 2px solid black;
+        display: none;
+    }
+    #optionA{
+        cursor: pointer;
+    }
+    #optionB{
+        cursor: pointer;
+    }
+    #optionC{
+        cursor: pointer;
+    }
+    .modelplan-mob img{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ourpromice-mob img{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     /* --------------------About Us page-------------------- */
 
     .abouthead h2 {
@@ -1588,7 +1702,7 @@ nav .mnbuttn {
         display: flex;
         justify-content: unset;
         overflow-x: auto;
-       
+
     }
 
     .charachter1 {
@@ -1683,20 +1797,24 @@ nav .mnbuttn {
     .secondinadvertise-mobile {
         display: contents;
     }
-    .arrow{
+
+    .arrow {
         display: flex;
 
     }
-    .left-arrow{
+
+    .left-arrow {
         width: 32px;
         height: 32px;
         position: absolute;
     }
-    .right-arrow{
+
+    .right-arrow {
         width: 32px;
         height: 32px;
-        
+
     }
+
     /* --------------------Support us-------------------  */
 
     .support-desktop {
@@ -1729,7 +1847,7 @@ nav .mnbuttn {
         gap: 54px;
     }
 
-   
+
 
     #lastname {
         height: 6vh;
@@ -1809,14 +1927,14 @@ nav .mnbuttn {
         border-radius: 0.3125rem;
         border: 0.1px solid #a79b9b;
         background: rgba(200, 226, 226, 0.29);
-       
+
     }
 
     .charachterslide {
         display: flex;
         justify-content: unset;
-       
-        
+
+
     }
 
     .charachter1mob {
@@ -1826,7 +1944,7 @@ nav .mnbuttn {
     .charachter1mob img {
         max-width: 50%;
     }
-    
+
     body {
         background: linear-gradient(180deg, #59FBDE 0%, rgba(255, 255, 255, 0.00) 100%);
         margin: 0;
