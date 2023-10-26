@@ -81,7 +81,7 @@ a:hover {
 .secondsection {
     margin-top: 347px;
     text-align: center;
-    background-color: #edd5c2;
+    background-color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
@@ -325,7 +325,6 @@ a:hover {
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    width: 60%;
     height: 35vh;
     border: 1px solid;
     border-radius: 1%;
@@ -389,15 +388,17 @@ footer {
 .callus {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 9px;
 
 
 }
-
+#emailSupport{
+    
+    height: 40px;
+}
 .callus img {
     width: 350px;
     height: 400px;
-    margin-left: 50px;
     margin-top: 50px;
 }
 
@@ -405,7 +406,6 @@ footer {
     margin-top: 50px;
     display: grid;
     gap: 25px;
-    width: 500px;
     text-align: center;
 }
 
@@ -904,7 +904,13 @@ nav .mnbuttn {
     font-size: 1rem;
     font-weight: 400;
 }
-
+.iconscontact img{
+      width: 16px;
+      height: 16px;
+}
+.iconscontact ul li{
+    display: flex;
+}
 .Title2 h3 {
     color: #0F2137;
     text-align: center;
@@ -1581,6 +1587,7 @@ nav .mnbuttn {
     .charachters {
         display: flex;
         justify-content: unset;
+        overflow-x: auto;
        
     }
 
@@ -1802,12 +1809,13 @@ nav .mnbuttn {
         border-radius: 0.3125rem;
         border: 0.1px solid #a79b9b;
         background: rgba(200, 226, 226, 0.29);
-
+       
     }
 
     .charachterslide {
         display: flex;
         justify-content: unset;
+       
         
     }
 
