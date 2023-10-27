@@ -1614,7 +1614,9 @@ nav .mnbuttn {
     .blue-text {
         color: blue;
     }
-
+    .forthinabout{
+        background: white;
+    }
     .elementsof p {
         color: #000000;
         font-family: DM Sans;
@@ -1723,7 +1725,7 @@ nav .mnbuttn {
     .charachters {
         display: flex;
         justify-content: unset;
-        
+        overflow-x: auto;
 
     }
 
