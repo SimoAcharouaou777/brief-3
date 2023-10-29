@@ -310,6 +310,7 @@ a:hover {
     font-family: B612;
     font-size: 2.875rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .plan h3 {
@@ -326,6 +327,7 @@ a:hover {
     font-family: B612;
     font-size: 2.875rem;
     font-weight: 700;
+    text-align: center;
 }
 .promice{
     text-align: center;
@@ -974,7 +976,7 @@ nav .mnbuttn {
     width: 444px;
     height: 254px;
     top: 120px;
-    right: 146px;
+    right: 352px;
     backdrop-filter: blur(7px);
     display: none;
 }
@@ -1502,16 +1504,20 @@ nav .mnbuttn {
 }
 
 .modelplan img{
-    width: 69%;
+    width: 29%;
 }
 .ourpromice img{
-    width: 69%;
+    width: 29%;
+   
 }
 
+.blue-text {
+    color: blue;
+}
 
-
-
-
+.black-text {
+    color: black;
+}
 
 
 
@@ -1605,6 +1611,7 @@ nav .mnbuttn {
 
     .elementsof {
         background: linear-gradient(#59FBDE, #FFFFFF);
+        min-width: 100%;
     }
 
     .black-text {
@@ -1994,8 +2001,8 @@ nav .mnbuttn {
         border: 1px solid black;
         backdrop-filter: blur(18px);
         position: fixed;
-        top: 122px;
-        right: 105px;
+        top: 415px;
+        right: 185px;
         display: none;
     }
     #closeupmobile{
